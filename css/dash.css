@@ -1,0 +1,21 @@
+body {
+    min-height: 75rem;
+    padding-top: 4.5rem;
+
+}
+
+.card-header:after {
+    content: "\f0eb";
+    float: right;
+}
+.card-header.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\f067";
+}
+
+div{
+    cursor:pointer;
+}
+.card {
+    margin-bottom: 3em;
+}
